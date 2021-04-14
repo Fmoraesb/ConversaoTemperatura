@@ -26,13 +26,14 @@
         android:layout_marginTop="8dp"
         android:layout_marginEnd="45dp"
         android:ems="10"
-        android:hint="Temperatura em Celsius"
+        android:hint="@string/hint_temperatura_celsius"
         android:inputType="numberDecimal"
         android:textAlignment="center"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.506"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+        app:layout_constraintTop_toBottomOf="@+id/textView2"
+        android:autofillHints="" />
 
     <TextView
         android:id="@+id/textView2"
@@ -41,7 +42,7 @@
         android:layout_marginStart="100dp"
         android:layout_marginTop="16dp"
         android:layout_marginEnd="100dp"
-        android:text="Celsius"
+        android:text="@string/celsius"
         android:textAlignment="center"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -54,7 +55,7 @@
         android:layout_marginStart="168dp"
         android:layout_marginTop="16dp"
         android:layout_marginEnd="172dp"
-        android:text="Fahrenheit"
+        android:text="@string/fahrenheit"
         android:textAlignment="center"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -67,7 +68,7 @@
         android:layout_marginStart="176dp"
         android:layout_marginTop="36dp"
         android:layout_marginEnd="181dp"
-        android:text="Kelvin"
+        android:text="@string/kelvin"
         android:textAlignment="center"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.472"
@@ -81,7 +82,7 @@
         android:layout_marginStart="75dp"
         android:layout_marginTop="50dp"
         android:layout_marginEnd="75dp"
-        android:text="Converter"
+        android:text="@string/converter"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/txtvKelvin" />
