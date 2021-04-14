@@ -27,7 +27,7 @@
         android:layout_marginEnd="45dp"
         android:ems="10"
         android:hint="Temperatura em Celsius"
-        android:inputType="textPersonName"
+        android:inputType="numberDecimal"
         android:textAlignment="center"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.506"
